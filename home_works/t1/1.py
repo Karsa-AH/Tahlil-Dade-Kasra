@@ -1,0 +1,10 @@
+a=float(input())
+z=0
+x=0
+if(a>=365):
+    z=a//365
+a=a-(z*365)
+if(a>=7):
+    x=a//7
+a=a-(x*7)
+print(f"year:{z}--week:{x}--day:{a}")
