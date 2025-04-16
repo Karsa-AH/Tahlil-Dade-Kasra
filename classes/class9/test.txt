@@ -1,0 +1,2 @@
+this is a test tex .
+ so i can practice reading / writing /creating giles in python
