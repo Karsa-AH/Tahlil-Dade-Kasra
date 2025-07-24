@@ -1,0 +1,12 @@
+this is writing methode 
+hello woorld!!!
+so I added this
+hii!this*is*writing*methode*
+hello*woorld!!!
+so*I*added*this
+https://s32.picofile.com/d/8479667618/5be88077-92e6-4e4a-b52b-96f618ac2a24/basic_python_book.rar name, age, bmi
+ a, 20, 25
+ b, 30, 14
+ c, 70, 34
+ d, 12, 21this is a test tex .
+ so i can practice reading / writing /creating giles in python

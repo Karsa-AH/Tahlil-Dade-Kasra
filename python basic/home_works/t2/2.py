@@ -1,0 +1,44 @@
+p=input("patrons?:")
+if(p=="none"):
+    print("no")
+elif(p=="some"):
+    print("yes")
+
+elif(p=="full"):
+    ws=int(input("waitestimate?:"))
+    if(ws<=10):
+        print("yes")
+    elif(ws>10 and ws<=30):
+        h=input("hungry?:")
+        if(h=="no"):
+            print("yes") 
+        elif(h=="yes"):
+            al=input("alternate?:")  
+            if(al=="no"):
+                print("yes")
+            elif(al=="yes"):
+                ru=input("raining?")
+                if(ru=="yes"):
+                    print("yes")
+                elif(ru=="no"):
+                    print("no")
+    elif(ws>30 and ws<=60):
+        a=input("alternate?:")
+        if(a=="yes"):
+            fs=input("fri/sat?:")
+            if(fs=="no"):
+                print("no")
+            elif(fs=="yes"):
+                print("yes")
+        elif(a=="no"):
+            re=input("reservation?:")
+            if(re=="yes"):
+                print("yes")
+            elif(re=="no"):
+                bar=input("bar?:")
+                if(bar=="yes"):
+                    print("yes")
+                elif(bar=="no"):
+                    print("no")                    
+    elif(ws>60):
+        print("no")        
